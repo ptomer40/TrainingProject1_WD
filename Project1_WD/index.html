@@ -22,34 +22,26 @@
 
         /* Row1 - Two equal-sized boxes with gap */
         .row1 {
-            border: 1px solid black;
-            height: 600px;
+           
+            height: 500px;
             grid-row: 2 / 3; /* Places this row in the second grid row */
             grid-column: 1 / -1; /* Span all columns */
             display: grid; /* Use grid layout for the row1 container */
-            background-color: brown;
-            grid-template-columns: repeat(2, 1fr); /* Define two equal columns */
+                       grid-template-columns: repeat(2, 1fr); /* Define two equal columns */
             gap: 80px; /* Add some space between items */
         }
 
         /* Grid items within row1 */
         .r11 {
             border-radius: 20px;
-            height: 500px;
-            background-color:beige;/* Color for visibility */
-            border: 1px solid black; /* Border for visibility */
+            height: 400px;
+           
+           
             margin: 40px;
+            padding: 20px;
         }
 
-        .row2 {
-            margin-top: 100px;
-            margin-bottom: 100px;
-            border: 1px solid black;
-            height: 100px;
-            grid-column-gap: 4px;
-            grid-row: 3 / 4;
-            grid-column: 1/-1;
-        }
+       
         
         .row3{
             
@@ -144,6 +136,7 @@ margin-top: -40px;
 }
 
 
+
 .row53{
 
     border-radius: 20px;
@@ -180,18 +173,161 @@ padding-left:80px;
 padding-top: 20px;
 }
 
+.signup{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+    height: 40px;
+    width: 90px;
+    background-color: #eac808;
+    color: #4f3502;
+    font-family: "IBM Plex Sans", sans-serif;
+
+}
+
+.sup{
+    border-radius: 6px;
+    /* box-sizing: border-box; */
+    border: 2px solid rgb(224, 224, 253);
+    width: 150px;
+    height: 34px;
+}
+
+li a {
+
+box-sizing: border-box;
+align-items: center;
+    text-align: center;
+    /* background-color: blue; */
+    color: white;
+    height: 40px;
+    
+    font-size: 16px;
+    width: 160px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.42857;
+    border-color: #e7e7e7;
+
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "IBM Plex Sans", sans-serif;
+
+
+}
+
+header ul {
+    box-sizing: border-box;
+    background-color:#3067f0;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    align-content: center;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+#help {
+    flex-grow: 8;
+    text-align: right;
+    border-left: 1px solid rgb(23, 17, 17);
+    border-right: 1px solid rgb(23, 17, 17);
+
+}
+#p1{
+    font-size: 72px;
+    width: 700px;
+
+}
+
+#p2{
+    font-size: 32px;
+}
+
+.container1 {
+
+    margin-top: 130px; 
+    margin-left: 200px;
+  
+    height: 600px;
+    width: 550px;
+    
+    /* text-align: center; */
+    align-items: center;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.block1{
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient( 180deg, rgba(158, 114, 114, 0) 0%, rgb(176, 176, 188) 95% );
+}
+
+
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">H1</div>
-        <div class="header">H2</div>
-        <div class="header">H3</div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://www.google.com"><img src="images/logo1.JPG" alt="brand img"
+                            width="25px"><b>WAZIRX</b></a>
+                </li>
+                <li><a href="#">EXCHANGE</a></li>
+                <li id="help"><a href="#"><img src="images/logo2.JPG" alt="help logo " width="20px"
+                            height="20px"><b>HELP</b></a></li>
+                <li><a href="#"><b>LOG IN</b></a></li>
+                <li id="sign"><a href="#">
+                        <div class="signup">
+                            <p>SIGN UP</p>
+                        </div>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <div class="block1">
+
+        <div class="container1">
+            <div class="sup"><img src="images/fiu.JPG" alt="" width="150px"></div>
+            <p id="p1"><b>India ka SALONA Exchange</b></p>
+            <p id="p2">Trusted By <b>15 million+ Indians</b></p>
+            <div class="tab">
+                <div><a href="https://www.play.google.com"><img src="images/getit.JPG" alt="google" height="48px"
+                            width="180px"></a></div>
+                <div><a href="http://www.apple.com"><img src="images/apple.JPG" alt="apple" height="48px"
+                            width="180px"></a></div>
+            </div>
+            <button class="btn"><b>SIGN UP</b></button>
+        </div>
+
+        <div class="container2"> <img src="images/3x.png" alt="mobpic " height="573px" width="275px"></div>
+
+    </div>
+
+
+
+    <div class="container">
+        
         <!-- Row1 with grid items -->
         <div class="row1">
-            <div class="r11">R21</div>
-            <div class="r11">R22</div>
+           
+                  
+            <div class="r11">
+                <p><b>300+ cryptos</b> to invest in for your next big move
+                    Invest in a range of cryptos, the easy way.</p>
+                <img class="row3img" src="./images/stock1.png"  width="300px" height="300px" alt="img1" />
+            
+            </div>
+            
+            <div class="r11">
+                <p><b>300+ cryptos</b> to invest in for your next big move
+                    Invest in a range of cryptos, the easy way.</p>
+                <img class="row3img" src="./images/stock2.png" width="300px" height="300px" alt="img1" /></div>
             
         </div>
 
