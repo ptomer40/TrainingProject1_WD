@@ -73,7 +73,7 @@
 
         .row4 {
             
-            height: 800px;
+            height: 700px;
             grid-row: 5 / 6; /* Places this row in the second grid row */
             grid-column: 1 / -1; /* Span all columns */
             display: grid; /* Use grid layout for the row1 container */
@@ -92,13 +92,13 @@
 
 
         .row5 {
-            border: 1px solid black;
+            /*border: 1px solid black; */
             height: 1200px;
             grid-row: 6/9; /* Places this row in the second grid row */
             grid-column: 1 / -1; /* Span all columns */
             
             display: grid; /* Use grid layout for the row1 container */
-            background-color: black;
+           
             grid-template-rows: repeat(3, 1fr); /* Define two equal rows*/
             gap: 20px; /* Add some space between items */
         }
@@ -106,11 +106,34 @@
 .row51 {
 
     border-radius: 20px;
-            height: 500px;
-            background-color:chartreuse;/* Color for visibility */
-            border: 1px solid black; /* Border for visibility */
+            height: 700px;
+           
             margin: 40px;
+            display:grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr);
+            gap: 40px;
+
 }
+
+.row51A,.row51B,.row51C,.row51D{
+
+            height: 200px;
+            width: 350px;
+          
+            margin-left:40px;
+            margin-top: 20px;
+            margin-bottom: 10px;;
+
+}
+.row51C,.row51D {
+margin-top: -40px;
+
+}
+
+
+
+
 .row52{
 
     border-radius: 20px;
@@ -119,6 +142,7 @@
             border: 1px solid black; /* Border for visibility */
             margin: 40px;
 }
+
 
 .row53{
 
@@ -155,6 +179,7 @@
 padding-left:80px;
 padding-top: 20px;
 }
+
     </style>
 </head>
 <body>
@@ -177,7 +202,7 @@ padding-top: 20px;
        
             <div class="row31">
 
-                <img class="row3img" src="./images/dog.jpg" height="100px" width="100px" alt="img1" />
+                <img class="row3img" src="./images/kyc.jpg" height="100px" width="100px" alt="img1" />
             <p>
                 <h2>KYC-Swift and Compliant</h2>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus necessitatibus quibusdam, nam rem possimus ut.
@@ -187,7 +212,7 @@ padding-top: 20px;
             </div>
             <div class="row31">
                 
-                <img class="row3img" src="./images/dog.jpg" height="100px" width="100px" alt="img1" />
+                <img class="row3img" src="./images/time.png" height="100px" width="100px" alt="img1" />
             <p>
                 <h2 style="text-align: center;">24/7 Support</h2>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus necessitatibus quibusdam, nam rem possimus ut.
@@ -197,7 +222,7 @@ padding-top: 20px;
             </div>
             <div class="row31">
              
-                <img class="row3img" src="./images/dog.jpg" height="100px" width="100px" alt="img1" />
+                <img class="row3img" src="./images/apitrading.jpg" height="100px" width="100px" alt="img1" />
             <p>
                 <h2 style="text-align: center;">Seamless API Trading</h2>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus necessitatibus quibusdam, nam rem possimus ut.
@@ -244,9 +269,59 @@ padding-top: 20px;
 
 
         <div class="row5">
-            <div class="row51">R51</div>
-            <div class="row52">R52</div>
+           
+            <div class="row51">
+              
+                <div class="row51A">
+                    <img class="row3img" src="./images/sec1.png" height="100px" width="100px" alt="img1" />
+                    <p>
+                        <h2 style="text-align: center;">Safekeeping Your Digital Assets</h2>
+                        We keep your digital assets safe with an extra layer of security.
+        
+                    </p>
+        
+                </div>
+                <div class="row51B"> <img class="row3img" src="./images/sec2.jpg" height="100px" width="100px" alt="img1" />
+                    <p>
+                        <h2 style="text-align: center;">2 - Factor Authentication</h2>
+                        Double your WazirX account security with 2-factor authentication - choose the setup that suits you best.
+        
+                    </p>
+        </div>
+                <div class="row51C"> <img class="row3img" src="./images/sec3.png" height="100px" width="100px" alt="img1" />
+                    <p>
+                        <h2 style="text-align: center;">End-to-End Encryption</h2>
+                        We use advanced encryption and follow the highest industry standards,
+                        ensuring worry-free crypto trading and investment for you.
+        
+                    </p>
+        </div>
+                <div class="row51D"> <img class="row3img" src="./images/sec4.png" height="100px" width="100px" alt="img1" />
+                    <p>
+                        <h2 style="text-align: center;">Transparency - Your Right to Know</h2>
+                        We don't just talk, we practice it. Explore our transparency reports, proof of reserves, and more, because informed users make better decisions.
+                    </p>
+        </div>
+
+
+            </div>
+            <div class="row52">
+                
+                
+                <div class="scroll-container">
+                    <img src="./images/sec1.png" height="100px" width="100px" alt="Image 1">
+                    <img src="./images/apitrading.jpg" height="100px" width="100px" alt="Image 2">
+                    <img src="./images/sec1.png" height="100px" width="100px" alt="Image 3">
+                    <img src="./images/sec2.jpg" height="100px" width="100px" alt="Image 1">
+                    <img src="./images/sec3.png" height="100px" width="100px" alt="Image 2">
+                    <img src="./images/sec1.png" height="100px" width="100px" alt="Image 3">
+                   
+                    <!-- Add more images as needed -->
+                </div>
+            
+            </div>
             <div class="row53">R53</div>
+           
            
         </div>
 
